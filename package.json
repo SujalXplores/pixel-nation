@@ -1,14 +1,15 @@
 {
-  "name": "next-js-boilerplate",
+  "name": "pixel-nation-generator",
   "version": "1.0.0",
   "private": true,
   "keywords": [
     "next.js",
     "tailwindcss",
     "eslint",
-    "boilerplate"
+    "pixel-art",
+    "map-generator"
   ],
-  "description": "Next.js boilerplate with Tailwind CSS, ESLint",
+  "description": "A Next.js application that generates pixel-art style maps of countries using dot patterns",
   "engines": {
     "node": ">=18.12.0",
     "vscode": ">=1.80.1"

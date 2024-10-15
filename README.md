@@ -1,8 +1,8 @@
-# Next.js Boilerplate
+# Pixel Nation Generator
 
-A modern, feature-rich boilerplate for Next.js projects with Tailwind CSS and ESLint integration.
+A Next.js application that generates pixel-art style maps of countries using dot patterns.
 
-![Next.js Boilerplate Demo](https://placehold.co/800x400/3B82F6/FFFFFF.gif?text=Next.js+Boilerplate&font=raleway)
+![Pixel Nation Generator Demo](https://placehold.co/800x400/3B82F6/FFFFFF.gif?text=Pixel+Nation+Generator&font=raleway)
 
 ## 🚀 Features
 
@@ -10,15 +10,16 @@ A modern, feature-rich boilerplate for Next.js projects with Tailwind CSS and ES
 - 🎨 **Tailwind CSS** - A utility-first CSS framework for rapid UI development
 - 📏 **ESLint** - Pluggable JavaScript linter
 - 🐶 **Husky** - Use git hooks with ease
-- 🧩 **Modular Architecture** - Organized project structure for scalability
-- 🔧 **Customizable** - Easy to customize and extend
+- 🌍 **TopoJSON** - For handling geographical data
+- 🎨 **react-colorful** - A tiny color picker component for React
+- 🔍 **Combobox** - For easy country selection
 
 ## 🛠 Getting Started
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SujalShah3234/next-js-boilerplate.git
-   cd next-js-boilerplate
+   git clone https://github.com/your-username/pixel-nation-generator.git
+   cd pixel-nation-generator
    ```
 
 2. Install dependencies:
@@ -38,43 +39,36 @@ A modern, feature-rich boilerplate for Next.js projects with Tailwind CSS and ES
 ```
 ├── app/
 │   ├── layout.js
-│   ├── page.js
+│   ├��─ page.js
 │   └── globals.css
+├── components/
+│   └── ui/
+├── lib/
 ├── public/
 ├── .husky/
 ├── .vscode/
-├── node_modules/
-├── .editorconfig
-├── .eslintrc.json
-├── .gitignore
-├── jsconfig.json
-├── next.config.mjs
-├── package.json
-├── postcss.config.js
-├── README.md
-├── renovate.json
-└── tailwind.config.js
+└── [Configuration files]
 ```
 
 ## 🎯 Key Features in Action
 
-### 1. Responsive Design with Tailwind CSS
+### 1. Country Selection with Combobox
 
-![Responsive Design Demo](https://placehold.co/800x400/22C55E/FFFFFF.gif?text=Responsive+Design&font=raleway)
+![Country Selection Demo](https://placehold.co/800x400/22C55E/FFFFFF.gif?text=Country+Selection&font=raleway)
 
-Tailwind CSS allows for rapid, responsive UI development. This demo shows the home page adapting to different screen sizes.
+Use the combobox to easily search and select countries from a comprehensive list.
 
-### 2. ESLint Integration
+### 2. Customizable Dot Patterns
 
-![ESLint Integration Demo](https://placehold.co/800x400/EAB308/FFFFFF.gif?text=ESLint+Integration&font=raleway)
+![Dot Customization Demo](https://placehold.co/800x400/EAB308/FFFFFF.gif?text=Dot+Customization&font=raleway)
 
-This GIF demonstrates real-time linting in action, showing how ESLint catches and helps fix code style issues.
+Adjust dot size and color to create unique pixel-art representations of countries.
 
-### 3. Fast Refresh with Next.js
+### 3. Real-time Preview
 
-![Fast Refresh Demo](https://placehold.co/800x400/EC4899/FFFFFF.gif?text=Fast+Refresh&font=raleway)
+![Real-time Preview Demo](https://placehold.co/800x400/EC4899/FFFFFF.gif?text=Real-time+Preview&font=raleway)
 
-Showcase the fast refresh feature of Next.js, demonstrating how changes in the code are instantly reflected in the browser without losing component state.
+See your changes instantly reflected in the country map preview.
 
 ## 🔧 Configuration
 
@@ -88,11 +82,12 @@ Tailwind is configured in `tailwind.config.js`. You can extend the default confi
 
 ## 📚 Learn More
 
-To learn more about the technologies used in this boilerplate, check out the following resources:
+To learn more about the technologies used in this project, check out the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [ESLint Documentation](https://eslint.org/docs/user-guide/getting-started)
+- [TopoJSON Documentation](https://github.com/topojson/topojson)
+- [react-colorful Documentation](https://github.com/omgovich/react-colorful)
 
 ## 🤝 Contributing
 

@@ -10,8 +10,8 @@ const RootLayout = ({ children }) => (
 );
 
 export const metadata = {
-  title: 'Pixel map generator',
-  description: 'Generate a pixel map of a country',
+  title: 'Pixel Nation Generator',
+  description: 'Generate pixel-art style maps of countries using dot patterns',
 };
 
 export default RootLayout;
