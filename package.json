@@ -44,7 +44,7 @@
     "topojson-client": "^3.1.0"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.20",
+    "autoprefixer": "10.6.0",
     "eslint": "8.57.1",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-next": "14.2.14",
